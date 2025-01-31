@@ -1,0 +1,27 @@
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - source: content
+      target: content
+    - source: i18n
+      target: i18n
+    - source: layouts
+      target: layouts
+
+# Params
+params:
+  admin:
+    collections:
+      jobs_tags:
+        enable: true
+
+# Permalink
+permalinks:
+  jobs_tags: /jobs/tags/:slug/
+  section:
+    jobs_tags: /jobs/tags/
+
+# Set taxonomy
+taxonomies:
+  jobs_tag: jobs_tags

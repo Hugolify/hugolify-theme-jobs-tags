@@ -1,0 +1,11 @@
+{{- with .GetTerms "jobs_tags" }}
+<div class="list-tags">
+  <ul>
+  {{- range . }}
+    <li>
+      <a href="{{ .Permalink }}">{{ partial "func/PrepareHTML" .Title }}</a>
+    </li>
+  {{ end -}}
+  </ul>
+</div>
+{{ end -}}
