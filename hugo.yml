@@ -18,9 +18,10 @@ params:
 
 # Permalink
 permalinks:
-  jobs_tags: /jobs/tags/:slug/
-  section:
+  taxonomy:
     jobs_tags: /jobs/tags/
+  term:
+    jobs_tags: /jobs/tags/:slug/
 
 # Set taxonomy
 taxonomies:

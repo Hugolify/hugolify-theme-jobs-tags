@@ -1,4 +1,3 @@
 ---
-isIndex: true
 title: Tags
 ---
