@@ -3,7 +3,7 @@
   <ul>
   {{- range . }}
     <li>
-      <a href="{{ .Permalink }}">{{ partial "func/PrepareHTML" .Title }}</a>
+      <a href="{{ .Permalink }}">{{ partial "func/PrepareHTML.html" .Title }}</a>
     </li>
   {{ end -}}
   </ul>
