@@ -15,6 +15,8 @@ params:
     collections:
       jobs_tags:
         enable: true
+        icon:
+          sveltiacms: bookmarks
 
 # Permalink
 permalinks:
