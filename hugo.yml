@@ -19,7 +19,12 @@ params:
           - field: isIndex
             value: false
         icon:
-          sveltiacms: bookmarks
+          bootstrap_icons: bookmarks
+          iconoir: bookmarks
+          material_icons: bookmarks
+          material_symbols: bookmarks
+          lucide: bookmark
+          sveltiacms: bookmarks # legacy
 
 # Permalink
 permalinks:
