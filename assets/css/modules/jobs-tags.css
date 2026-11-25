@@ -1,0 +1,12 @@
+/* css/modules/jobs-tags.css: hugolify-theme-jobs-tags entry point */
+
+/* Tokens */
+@import '../tokens/jobs-tags.css';
+
+/* Components */
+@import '../components/jobs-tag.css';
+@import '../components/jobs-tags.css';
+
+/* Pages */
+@import '../pages/jobs-tag.css';
+@import '../pages/jobs-tags.css';

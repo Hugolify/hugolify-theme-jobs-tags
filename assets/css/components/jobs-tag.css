@@ -1,0 +1,11 @@
+/* components/jobs-tag.css */
+/*
+ * Usage: <article class="item jobs_tag">
+ */
+@layer components {
+  .jobs_tag {
+    .btn {
+      display: none;
+    }
+  }
+}
